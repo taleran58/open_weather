@@ -27,9 +27,9 @@ def main():
         high = round(weather_details.json()['main']['temp_max'])
         low = round(weather_details.json()['main']['temp_min'])
 
-        print(f"The weather in {location[0].upper()}{location[1:]} is {temperature}° C with {description}.")
-        print(f"It feels like {feels_like}° C.")
-        print(f"Today's high is {high}° C and today's low is {low}° C.")
+        print(f"The weather in {location[0].upper()}{location[1:]} is {temperature}°c with {description}.")
+        print(f"It feels like {feels_like}°c.")
+        print(f"Today's high is {high}°c and today's low is {low}°c.")
 
         print("more details:")
         print(weather_details.json())
