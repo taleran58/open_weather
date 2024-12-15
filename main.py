@@ -1,5 +1,8 @@
 import requests
 
+'''
+open weather website: https://home.openweathermap.org/api_keys
+'''
 def main():
     #api_key = open('api.txt', r).read()
     api_key = '7f393e3ce56acd17a4493f50687bd033'
